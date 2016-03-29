@@ -15,7 +15,7 @@
     **Black beans** are more popular
     grep -i 'chicken burrito' chipotle.tsv | grep -i 'black beans' chipotle.tsv | wc -l
 
-6. 
+6. i utilzied "find . -name *.?sv" retrieve all the tsv and csv files. see attachment.  Homework2.png
 
 
     
