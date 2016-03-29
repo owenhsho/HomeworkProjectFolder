@@ -9,7 +9,13 @@
 
 3. The total lines are 4623 (wc-l chipotle.tsv)
 
-4. Chicken (553) is more popular than Steak (368).  Using piping function grep -i 'steak burrito' chipotle.tsv | wc -l
+4. **Chicken** (553) is more popular than Steak (368).  Using piping function grep -i 'steak burrito' chipotle.tsv | wc -l
 
-5. 
+5. one additional piping 
+    **Black beans** are more popular
+    grep -i 'chicken burrito' chipotle.tsv | grep -i 'black beans' chipotle.tsv | wc -l
+
+6. 
+
+
     
